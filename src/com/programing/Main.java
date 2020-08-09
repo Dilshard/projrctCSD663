@@ -7,8 +7,17 @@ public class Main {
         int mk2 = 80;
         int mk3 = 90;
         int tot = mk1 + mk2 + mk3;
+        double avg = tot / 3;
+        String grd;
+        if(avg>=50){
+            grd = "Pass";
+        }else {
+            grd = "Fail";
+        }
 
         System.out.println("Total :" + tot);
+        System.out.println("Average : "+avg);
+        System.out.println("Grade : "+grd);
 
     }
 }
