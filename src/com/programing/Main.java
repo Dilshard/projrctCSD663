@@ -9,8 +9,10 @@ public class Main {
         int tot = mk1 + mk2 + mk3;
         double avg = tot / 3;
         String grd;
-        if(avg>=50){
-            grd = "Pass";
+        if(avg>=80){
+            grd = "Distinction";
+        }else if(avg >= 70) {
+            grd = "Merit";
         }else {
             grd = "Fail";
         }
